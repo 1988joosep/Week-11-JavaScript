@@ -7,5 +7,5 @@ myButton.addEventListener('click', changeImage);
 
 function changeImage() {
     let randomIndex = Math.floor(Math.random() * images.length);
-    image.src = "images/Image4.jpg"; images[randomIndex];
+    image.src = "images/" + images[randomIndex];
 }
